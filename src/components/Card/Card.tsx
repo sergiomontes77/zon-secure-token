@@ -1,0 +1,13 @@
+import type { HTMLAttributes } from "react";
+import { cn } from "@/lib/utils";
+
+export function Card({ className, children, ...props }: HTMLAttributes<HTMLDivElement>) {
+  return (
+    <div
+      className={cn("rounded-zon-md border border-zon-grey-88 bg-white", className)}
+      {...props}
+    >
+      {children}
+    </div>
+  );
+}
