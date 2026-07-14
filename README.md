@@ -70,7 +70,7 @@ Neste projeto reproduzo essa experiência utilizando Next.js, TypeScript e um De
 
 ## Home
 
-![Home](docs/images/home.png)
+![Home](docs/images/01_Newsolução.png)
 
 ---
 
