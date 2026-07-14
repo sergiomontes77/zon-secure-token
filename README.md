@@ -68,21 +68,17 @@ Neste projeto reproduzo essa experiência utilizando Next.js, TypeScript e um De
 
 # Screenshots
 
-## Home
+### Home
 
-![Home](docs/images/01_Newsolução.png)
+![Home](docs/images/01_Newsolução.png)
 
----
+### Cartão
 
-## Cartão
+![Cartão](docs/images/02_z_on_card.png)
 
-![Cartão](docs/images/home-card.png)
+### Secure Token
 
----
-
-## Secure Token
-
-![Secure Token](docs/images/secure-token.png)
+![Secure Token](docs/images/03_home_card_azul_token.png)
 
 ---
 
