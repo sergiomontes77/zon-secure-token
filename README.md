@@ -158,4 +158,4 @@ https://github.com/sergiomontes77
 
 # Licença
 
-Projeto desenvolvido para fins de estudo e portfólio.
+Projeto desenvolvido para fins de pesquisas e portfólio.
