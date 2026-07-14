@@ -1,48 +1,166 @@
-# TokenPay
+# 🔐 Z-ON Secure Token
 
-Aplicativo de pagamentos com Token de Segurança (Secure Token Wallet), inspirado em fintechs como Nubank, C6 Bank, Mercado Pago e Apple Wallet. Projeto de portfólio focado em UX/UI, arquitetura de componentes e boas práticas de front-end.
+Aplicação mobile desenvolvida para reproduzir a experiência de autenticação por **Secure Token**, criada para aumentar a segurança nas transações do cartão Private Label da Z-ON Soluções Financeiras.
 
-## Stack
+Este projeto demonstra como uma solução de UX, Produto e Tecnologia pode reduzir fraudes sem comprometer a experiência do usuário.
 
-- [Next.js 15](https://nextjs.org) (App Router)
-- [React 19](https://react.dev) + [TypeScript](https://www.typescriptlang.org)
-- [Tailwind CSS v4](https://tailwindcss.com)
-- [shadcn/ui](https://ui.shadcn.com)
-- [Framer Motion](https://www.framer.com/motion)
-- [Lucide Icons](https://lucide.dev)
+🌐 **Aplicação:** https://zon-secure-token.vercel.app
 
-## Estrutura de pastas
+📂 **Repositório:** https://github.com/sergiomontes77/zon-secure-token
 
-```
-src/
-  app/          # Rotas e layouts (Next.js App Router)
-  components/   # Componentes de UI reutilizáveis (inclui components/ui do shadcn)
-  features/     # Módulos de domínio (ex.: wallet, transactions, auth)
-  hooks/        # Custom React hooks
-  services/     # Integrações com APIs e regras de negócio
-  types/        # Tipos e interfaces TypeScript compartilhados
-  utils/        # Funções utilitárias
-  assets/       # Ícones e imagens estáticas
-  styles/       # Estilos globais e tokens adicionais
-  lib/          # Utilitários de infraestrutura (ex.: cn() do shadcn)
-```
+---
 
-## Como rodar
+# O Problema
+
+Durante análises de fraude foi identificado um comportamento recorrente:
+
+Clientes, principalmente pessoas com menor familiaridade com tecnologia, compartilhavam a senha do cartão com terceiros para concluir compras presenciais. Em alguns casos, essas senhas eram utilizadas posteriormente para realizar transações fraudulentas utilizando apenas o CPF do cliente e a senha já conhecida.
+
+O desafio era aumentar a segurança sem tornar o processo de pagamento mais complexo.
+
+---
+
+# A Solução
+
+Foi criada uma experiência baseada em **Secure Token**, substituindo a autenticação apenas por senha estática por um código temporário válido por 30 segundos.
+
+A solução contempla:
+
+- geração automática de Token temporário;
+- renovação do código a cada 30 segundos;
+- indicador visual do tempo restante;
+- opção de ocultar e exibir o Token;
+- navegação simples e intuitiva.
+
+Além da funcionalidade, foi realizada uma estratégia de educação dos clientes durante aproximadamente três meses para incentivar a adoção da nova forma de autenticação.
+
+---
+
+# Resultado
+
+A iniciativa contribuiu para uma redução aproximada de **25% nas fraudes** envolvendo o cartão Private Label.
+
+> **Observação:** Este repositório é um case de portfólio que reproduz a experiência da funcionalidade desenvolvida. O resultado apresentado refere-se à iniciativa implementada no produto real.
+
+---
+
+# Meu Papel
+
+Como Senior Product Designer participei da concepção da experiência da funcionalidade, colaborando na definição dos fluxos, arquitetura da interface, componentes, validação da experiência e alinhamento com Produto e Engenharia.
+
+Neste projeto reproduzo essa experiência utilizando Next.js, TypeScript e um Design System componentizado.
+
+---
+
+# Funcionalidades
+
+- Home de Soluções
+- Tela do Cartão
+- Secure Token
+- Contagem regressiva
+- Mostrar / Ocultar Token
+- Navegação Mobile
+- Componentização
+- Responsividade
+- Animações com Framer Motion
+
+---
+
+# Screenshots
+
+## Home
+
+![Home](docs/images/home.png)
+
+---
+
+## Cartão
+
+![Cartão](docs/images/home-card.png)
+
+---
+
+## Secure Token
+
+![Secure Token](docs/images/secure-token.png)
+
+---
+
+# Tecnologias
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Framer Motion
+- Lucide Icons
+
+---
+
+# Como executar
 
 ```bash
+git clone https://github.com/sergiomontes77/zon-secure-token.git
+
+cd zon-secure-token
+
 npm install
+
 npm run dev
 ```
 
-Abra [http://localhost:3000](http://localhost:3000).
+Abra:
 
-## Scripts
+```
+http://localhost:3000
+```
 
-| Comando                 | Descrição                        |
-| ----------------------- | --------------------------------- |
-| `npm run dev`           | Ambiente de desenvolvimento       |
-| `npm run build`         | Build de produção                 |
-| `npm run start`         | Serve o build de produção         |
-| `npm run lint`          | Roda o ESLint                     |
-| `npm run format`        | Formata o código com Prettier     |
-| `npm run format:check`  | Verifica formatação sem alterar   |
+---
+
+# Roadmap
+
+### Versão atual
+
+- Home
+- Cartão
+- Secure Token
+- Contagem regressiva
+- Navegação
+- Componentes reutilizáveis
+
+### Próximas evoluções
+
+- Login com biometria
+- Histórico de Tokens
+- Dark Mode
+- Skeleton Loading
+- Estados de erro
+- Internacionalização
+- Testes automatizados
+
+---
+
+# Autor
+
+**Sérgio Romão Montes**
+
+Senior Product Designer
+
+LinkedIn
+
+https://linkedin.com/in/sergiormontes1977
+
+Portfólio
+
+https://sergioromaomontes.com.br
+
+GitHub
+
+https://github.com/sergiomontes77
+
+---
+
+# Licença
+
+Projeto desenvolvido para fins de estudo e portfólio.
