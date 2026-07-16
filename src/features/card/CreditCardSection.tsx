@@ -17,11 +17,7 @@ export function CreditCardSection({ invoice, onViewInvoice }: CreditCardSectionP
 
   return (
     <section className="flex w-full flex-col items-start gap-2">
-      <h1 className="font-heading-zon w-full text-[22px] leading-[26.4px] font-bold text-zon-grey-4">
-        Meu cartão de crédito
-      </h1>
-
-      <div className="flex w-full items-center justify-between pt-2">
+      <div className="flex w-full items-center justify-between">
         <span className="font-heading-zon text-base leading-6 font-bold text-zon-grey-4">
           Seu cartão
         </span>

@@ -5,7 +5,7 @@ import statusbarBattery from "@/assets/icons/statusbar-battery.svg";
 
 export function StatusBar() {
   return (
-    <div className="flex w-full shrink-0 items-center justify-between px-6 pt-[21px] pb-[19px]">
+    <div className="flex w-full shrink-0 items-center justify-between bg-white px-6 pt-[21px] pb-[19px]">
       <span className="font-body-zon text-[17px] leading-[22px] text-black">9:41</span>
       <div className="flex items-center gap-[7px]">
         <Image src={statusbarSignal} alt="" className="h-3 w-[19px]" />

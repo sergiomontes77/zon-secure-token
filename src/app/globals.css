@@ -168,3 +168,13 @@
     @apply font-sans;
   }
 }
+
+@keyframes token-dash-glow {
+  0%,
+  100% {
+    stroke: var(--color-zon-grey-88);
+  }
+  50% {
+    stroke: var(--color-zon-blue);
+  }
+}
