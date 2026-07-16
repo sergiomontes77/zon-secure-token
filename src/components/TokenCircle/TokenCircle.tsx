@@ -56,10 +56,8 @@ export function TokenCircle({ code, remainingSeconds }: TokenCircleProps) {
               y2={dash.y2}
               strokeWidth={10}
               strokeLinecap="round"
-              style={{
-                animation: `token-dash-glow ${GLOW_DURATION_SECONDS}s ease-in-out infinite`,
-                animationDelay: `${dash.delay}s`,
-              }}
+              className="token-dash-glow"
+              style={{ animationDelay: `${dash.delay}s` }}
             />
           ))}
         </svg>

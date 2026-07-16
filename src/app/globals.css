@@ -178,3 +178,9 @@
     stroke: var(--color-zon-blue);
   }
 }
+
+/* A referência precisa existir aqui dentro do CSS (não só via inline style em JS),
+   senão minificadores de produção descartam o @keyframes por achá-lo "não usado". */
+.token-dash-glow {
+  animation: token-dash-glow 2.4s ease-in-out infinite;
+}
