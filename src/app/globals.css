@@ -182,7 +182,7 @@
   border-left: 14px solid #02a5ff;
   border-bottom: 14px solid #005eb2;
   border-right: 14px solid #00112d;
-  animation: token-spinner-spin 0.6s linear infinite;
+  animation: token-spinner-spin 2s linear infinite;
 }
 
 @keyframes token-spinner-spin {
